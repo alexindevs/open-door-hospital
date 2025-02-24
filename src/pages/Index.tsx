@@ -26,10 +26,10 @@ const Index = () => {
               Welcome to Open Door Hospital
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white leading-tight animate-fadeIn">
-              Your Family's Health is Our Priority
+              Your Optimal Health is Our Priority
             </h1>
             <p className="text-xl text-gray-100 mb-8 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
-              Providing compassionate, quality healthcare to Nigerian families for over 10 years.
+              Providing compassionate, quality healthcare services to Nigerian families for over 10 years.
             </p>
             <div className="flex flex-wrap gap-4 animate-fadeIn" style={{ animationDelay: "0.4s" }}>
               <Link
@@ -84,7 +84,7 @@ const Index = () => {
               A Legacy of Excellence in Healthcare
             </h2>
             <p className="text-gray-600">
-              For over 10 years, we've been providing exceptional medical care to families in Lagos,
+              For over 10 years, we've been providing exceptional medical care to families,
               combining advanced technology with compassionate service.
             </p>
           </div>
@@ -115,7 +115,7 @@ const Index = () => {
           </div>
           <div className="aspect-[21/9] w-full rounded-2xl overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.465251878851!2d3.2877570484100302!3d6.5889468014954184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9047e00ef11b%3A0xc3b628fec9209b05!2s4%20Owotade%20St%2C%20Isheri%20Olofin%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1740358180145!5m2!1sen!2sng"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4668699133863!2d3.2881111!3d6.5887443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b903800db0f0f%3A0x9ab211e69888aa97!2s4%20Owutedo%20St%2C%20Isheri%20Olofin%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1740392477174!5m2!1sen!2sng"
               width="100%"
               height="100%"
               style={{ border: 0 }}

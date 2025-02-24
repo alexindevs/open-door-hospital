@@ -12,9 +12,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
     console.log("Form submitted:", formData);
-    // Reset form
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
@@ -106,7 +104,7 @@ const Contact = () => {
                   <MapPin className="text-primary-blue" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Address</h3>
-                    <p className="text-gray-600">4, Owutedo Street, Isheri-Olofin, Lagos.</p>
+                    <p className="text-gray-600">4, Owutedo Street, Isheri-Olofin, Egbeda, Lagos.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -143,7 +141,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold mb-6">Our Location</h2>
               <div className="aspect-[4/3] rounded-lg overflow-hidden">
               <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.465251878851!2d3.2877570484100302!3d6.5889468014954184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9047e00ef11b%3A0xc3b628fec9209b05!2s4%20Owotade%20St%2C%20Isheri%20Olofin%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1740358180145!5m2!1sen!2sng"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4668699133863!2d3.2881111!3d6.5887443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b903800db0f0f%3A0x9ab211e69888aa97!2s4%20Owutedo%20St%2C%20Isheri%20Olofin%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1740392477174!5m2!1sen!2sng"
               width="100%"
               height="100%"
               style={{ border: 0 }}

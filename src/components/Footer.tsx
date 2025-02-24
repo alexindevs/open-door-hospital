@@ -20,7 +20,7 @@ const Footer = () => {
               <li><Link to="/" className="text-gray-600 hover:text-primary-blue transition-colors">Home</Link></li>
               <li><Link to="/about" className="text-gray-600 hover:text-primary-blue transition-colors">About Us</Link></li>
               <li><Link to="/services" className="text-gray-600 hover:text-primary-blue transition-colors">Services</Link></li>
-              <li><Link to="/doctors" className="text-gray-600 hover:text-primary-blue transition-colors">Doctors</Link></li>
+              <li><Link to="/gallery" className="text-gray-600 hover:text-primary-blue transition-colors">Gallery</Link></li>
               <li><Link to="/contact" className="text-gray-600 hover:text-primary-blue transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-gray-600">
                 <MapPin size={18} />
-                <span>4, Owutedo Street, Isheri-Olofin, Lagos.</span>
+                <span>4, Owutedo Street, Isheri-Olofin, Egbeda, Lagos.</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-600">
                 <Clock size={18} />

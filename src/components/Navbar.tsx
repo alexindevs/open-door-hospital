@@ -64,12 +64,12 @@ const Navbar = () => {
               </MobileNavLink>
               
               <a 
-                href="tel:+2348000000000" 
+                href="tel:+2348032076163" 
                 className="flex items-center space-x-2 text-primary-blue hover:text-primary-red transition-colors p-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <Phone size={20} />
-                <span>Emergency: 0800 000 0000</span>
+                <span>Emergency: 0803 207 6163</span>
               </a>
             </div>
           </div>
