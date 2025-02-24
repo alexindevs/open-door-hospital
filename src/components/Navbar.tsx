@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink to="/" isActive={isActive("/")}>Home</NavLink>
             <NavLink to="/about" isActive={isActive("/about")}>About</NavLink>
             <NavLink to="/services" isActive={isActive("/services")}>Services</NavLink>
-            <NavLink to="/team" isActive={isActive("/team")}>Team</NavLink>
+            <NavLink to="/gallery" isActive={isActive("/gallery")}>Gallery</NavLink>
             <NavLink to="/contact" isActive={isActive("/contact")}>Contact</NavLink>
           </div>
 
@@ -56,8 +56,8 @@ const Navbar = () => {
               <MobileNavLink to="/services" isActive={isActive("/services")} onClick={() => setIsMenuOpen(false)}>
                 Services
               </MobileNavLink>
-              <MobileNavLink to="/team" isActive={isActive("/team")} onClick={() => setIsMenuOpen(false)}>
-                Team
+              <MobileNavLink to="/gallery" isActive={isActive("/gallery")} onClick={() => setIsMenuOpen(false)}>
+                Gallery
               </MobileNavLink>
               <MobileNavLink to="/contact" isActive={isActive("/contact")} onClick={() => setIsMenuOpen(false)}>
                 Contact
