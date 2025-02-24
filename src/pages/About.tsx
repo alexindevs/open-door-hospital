@@ -169,7 +169,7 @@ const adminTeam = [
   },
   {
     name: "Mrs. Stone Rock",
-    role: "Head of Nursing",
+    role: "Nursing Department",
     image: "/placeholder.svg",
     description: "Ensuring excellence in patient care through our dedicated nursing team."
   }
